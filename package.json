@@ -1,0 +1,29 @@
+{
+  "name": "exquisitecorpse.online",
+  "version": "1.0.0",
+  "description": "This is a simple project that makes a [static deployment](https://zeit.co/docs/deployment-types/static) to Now.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janecakemaster/exquisitecorpse.online.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janecakemaster/exquisitecorpse.online/issues"
+  },
+  "homepage": "https://github.com/janecakemaster/exquisitecorpse.online#readme",
+  "dependencies": {
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
+}
