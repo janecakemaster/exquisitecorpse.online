@@ -1,7 +1,7 @@
 {
   "name": "exquisitecorpse.online",
   "version": "1.0.0",
-  "description": "This is a simple project that makes a [static deployment](https://zeit.co/docs/deployment-types/static) to Now.",
+  "description": "Exquisite Corpse - write poetry with strangers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,8 +13,8 @@
     "type": "git",
     "url": "git+https://github.com/janecakemaster/exquisitecorpse.online.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["poetry", "poems", "nextjs", "creative code"],
+  "author": "@janecakemaster",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/janecakemaster/exquisitecorpse.online/issues"
