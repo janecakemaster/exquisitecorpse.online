@@ -5,15 +5,22 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "format": "standard --fix",
+    "seed": "node seed.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/janecakemaster/exquisitecorpse.online.git"
   },
-  "keywords": ["poetry", "poems", "nextjs", "creative code"],
+  "keywords": [
+    "poetry",
+    "poems",
+    "nextjs",
+    "creative code"
+  ],
   "author": "@janecakemaster",
   "license": "ISC",
   "bugs": {
@@ -21,6 +28,9 @@
   },
   "homepage": "https://github.com/janecakemaster/exquisitecorpse.online#readme",
   "dependencies": {
+    "express": "^4.16.3",
+    "isomorphic-unfetch": "^2.1.1",
+    "mongoose": "^5.2.9",
     "next": "^6.1.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
